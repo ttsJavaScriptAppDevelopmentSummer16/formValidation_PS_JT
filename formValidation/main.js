@@ -1,6 +1,6 @@
 $(document).ready(function(){
   var button = $('#submit');
-  button.on('click', function(){
+  button.on('click', function(event){
       var name = $('#name');
       var email = $('#email');
       var phone = $('#phone');
